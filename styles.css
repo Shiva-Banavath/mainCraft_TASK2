@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(120deg, #0f172a, #1e293b);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* NAVBAR */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+  }
+  
+  nav h1 {
+    font-size: 26px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  nav a:hover {
+    color: #60a5fa;
+  }
+  
+  /* MAIN SECTION CENTER */
+  .page {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+  }
+  
+  /* CARD */
+  .card-box {
+    background: rgba(255,255,255,0.05);
+    padding: 50px;
+    border-radius: 20px;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  }
+  
+  /* BUTTON */
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    background: linear-gradient(45deg,#3b82f6,#60a5fa);
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #3b82f6;
+  }
+  
+  /* CONTACT FORM */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+  }
+  
+  input, textarea {
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+  }
+  /* HERO LAYOUT */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 80px;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  /* LEFT TEXT */
+  .hero-left {
+    max-width: 500px;
+  }
+  
+  .hero-left h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-left p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* RIGHT CARDS */
+  .hero-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background: rgba(255,255,255,0.05);
+    padding: 25px 30px;
+    border-radius: 15px;
+    width: 300px;
+    transition: 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  }
+  

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>MainCrafts</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="page">
+      <div class="card-box">
+        <h2>Contact Us</h2>
+
+        <!--  FORM WITH VALIDATION -->
+        <form onsubmit="return validateForm();">
+          <input id="name" type="text" placeholder="Your Name" />
+          <input id="email" type="email" placeholder="Your Email" />
+          <textarea rows="5" placeholder="Message"></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>© 2025 MainCrafts</footer>
+
+    <!--  CONNECT JS FILE -->
+    <script src="script.js"></script>
+  </body>
+</html>
